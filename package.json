@@ -1,0 +1,31 @@
+{
+  "name": "npdynamodb-typecast",
+  "version": "0.0.1",
+  "description": "A npdynamodb plugin for casting hash and range key with actual attribution type",
+  "main": "index.js",
+  "scripts": {
+    "test": "find ./test -name *_spec.js | xargs mocha --reporter spec -t 20000"
+  },
+  "keywords": [
+    "npdynamodb",
+    "typecast",
+    "activerecord",
+    "orm"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/noppoMan/npdynamodb-typecast.git"
+  },
+  "author": "noppoMan <yuki@miketokyo.com> (http://miketokyo.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/noppoMan/npdynamodb-typecast/issues"
+  },
+  "homepage": "https://github.com/noppoMan/npdynamodb-typecast",
+  "devDependencies": {
+    "aws-sdk": "^2.1.42",
+    "bluebird": "^2.9.34",
+    "lodash": "^3.10.1",
+    "npdynamodb": "^0.2.5"
+  }
+}
